@@ -1,0 +1,14 @@
+# Ignore compiled Java class files
+*.class
+src/main/webapp/WEB-INF/classes/
+
+# Ignore heavy library dependencies (jars)
+src/main/webapp/WEB-INF/lib/
+
+# Ignore IDE specific files
+.settings/
+.project
+.classpath
+.metadata/
+*.bundle
+*.env
